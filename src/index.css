@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+ul  li {
+    list-style-type: none;
+}
+button {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
